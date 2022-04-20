@@ -1,0 +1,58 @@
+﻿  helloworld.pb.cc
+  redlock.cpp
+E:\Git_Projects\vcpkg\installed\x64-windows-static\include\hiredis\sds.h(53,15): warning C4200: 使用了非标准扩展: 结构/联合中的零大小数组
+E:\Git_Projects\vcpkg\installed\x64-windows-static\include\hiredis\sds.h(53,15): message : 默认构造函数或 copy/move 赋值运算符将忽略此成员
+E:\Git_Projects\vcpkg\installed\x64-windows-static\include\hiredis\sds.h(59,15): warning C4200: 使用了非标准扩展: 结构/联合中的零大小数组
+E:\Git_Projects\vcpkg\installed\x64-windows-static\include\hiredis\sds.h(59,15): message : 默认构造函数或 copy/move 赋值运算符将忽略此成员
+E:\Git_Projects\vcpkg\installed\x64-windows-static\include\hiredis\sds.h(65,15): warning C4200: 使用了非标准扩展: 结构/联合中的零大小数组
+E:\Git_Projects\vcpkg\installed\x64-windows-static\include\hiredis\sds.h(65,15): message : 默认构造函数或 copy/move 赋值运算符将忽略此成员
+E:\Git_Projects\vcpkg\installed\x64-windows-static\include\hiredis\sds.h(71,15): warning C4200: 使用了非标准扩展: 结构/联合中的零大小数组
+E:\Git_Projects\vcpkg\installed\x64-windows-static\include\hiredis\sds.h(71,15): message : 默认构造函数或 copy/move 赋值运算符将忽略此成员
+E:\Git_Projects\vcpkg\installed\x64-windows-static\include\hiredis\sds.h(77,15): warning C4200: 使用了非标准扩展: 结构/联合中的零大小数组
+E:\Git_Projects\vcpkg\installed\x64-windows-static\include\hiredis\sds.h(77,15): message : 默认构造函数或 copy/move 赋值运算符将忽略此成员
+E:\VS_Projects\c++\VcpkgPractise\VcpkgPractise\SrpcHelloWorld\redlock\redlock.h(245,1): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+E:\VS_Projects\c++\VcpkgPractise\VcpkgPractise\SrpcHelloWorld\redlock\redlock.cpp(113,27): warning C4101: “err”: 未引用的局部变量
+E:\VS_Projects\c++\VcpkgPractise\VcpkgPractise\SrpcHelloWorld\redlock\redlock.cpp(125,31): warning C4101: “err”: 未引用的局部变量
+E:\VS_Projects\c++\VcpkgPractise\VcpkgPractise\SrpcHelloWorld\redlock\redlock.cpp(144,32): warning C4101: “err”: 未引用的局部变量
+E:\Git_Projects\vcpkg\installed\x64-windows-static\include\sw\redis++\queued_redis.hpp(45,27): warning C4101: “e”: 未引用的局部变量
+E:\Git_Projects\vcpkg\installed\x64-windows-static\include\sw\redis++\queued_redis.hpp(42): message : 在编译 类 模板 成员函数“sw::redis::QueuedRedis<sw::redis::TransactionImpl>::~QueuedRedis(void)”时
+E:\VS_Projects\c++\VcpkgPractise\VcpkgPractise\SrpcHelloWorld\redlock\redlock.cpp(101): message : 查看对正在编译的函数 模板 实例化“sw::redis::QueuedRedis<sw::redis::TransactionImpl>::~QueuedRedis(void)”的引用
+E:\VS_Projects\c++\VcpkgPractise\VcpkgPractise\SrpcHelloWorld\redlock\redlock.cpp(101): message : 查看对正在编译的 类 模板 实例化“sw::redis::QueuedRedis<sw::redis::TransactionImpl>”的引用
+E:\Git_Projects\vcpkg\installed\x64-windows-static\include\sw\redis++\queued_redis.hpp(122,32): warning C4101: “e”: 未引用的局部变量
+E:\Git_Projects\vcpkg\installed\x64-windows-static\include\sw\redis++\queued_redis.hpp(111): message : 在编译 类 模板 成员函数“sw::redis::QueuedReplies sw::redis::QueuedRedis<sw::redis::TransactionImpl>::exec(void)”时
+E:\VS_Projects\c++\VcpkgPractise\VcpkgPractise\SrpcHelloWorld\redlock\redlock.cpp(108): message : 查看对正在编译的函数 模板 实例化“sw::redis::QueuedReplies sw::redis::QueuedRedis<sw::redis::TransactionImpl>::exec(void)”的引用
+E:\Git_Projects\vcpkg\installed\x64-windows-static\include\sw\redis++\queued_redis.hpp(127,27): warning C4101: “e”: 未引用的局部变量
+E:\Git_Projects\vcpkg\installed\x64-windows-static\include\sw\redis++\queued_redis.hpp(70,27): warning C4101: “e”: 未引用的局部变量
+E:\Git_Projects\vcpkg\installed\x64-windows-static\include\sw\redis++\queued_redis.h(145): message : 查看对正在编译的函数 模板 实例化“sw::redis::QueuedRedis<sw::redis::TransactionImpl> &sw::redis::QueuedRedis<sw::redis::TransactionImpl>::command<void(__cdecl *)(sw::redis::Connection &,const sw::redis::StringView &),const sw::redis::StringView&>(Cmd,const sw::redis::StringView &)”的引用
+          with
+          [
+              Cmd=void (__cdecl *)(sw::redis::Connection &,const sw::redis::StringView &)
+          ]
+E:\Git_Projects\vcpkg\installed\x64-windows-static\include\sw\redis++\queued_redis.h(145): message : 查看对正在编译的函数 模板 实例化“sw::redis::QueuedRedis<sw::redis::TransactionImpl> &sw::redis::QueuedRedis<sw::redis::TransactionImpl>::command<void(__cdecl *)(sw::redis::Connection &,const sw::redis::StringView &),const sw::redis::StringView&>(Cmd,const sw::redis::StringView &)”的引用
+          with
+          [
+              Cmd=void (__cdecl *)(sw::redis::Connection &,const sw::redis::StringView &)
+          ]
+E:\Git_Projects\vcpkg\installed\x64-windows-static\include\sw\redis++\queued_redis.h(144): message : 在编译 类 模板 成员函数“sw::redis::QueuedRedis<sw::redis::TransactionImpl> &sw::redis::QueuedRedis<sw::redis::TransactionImpl>::del(const sw::redis::StringView &)”时
+E:\VS_Projects\c++\VcpkgPractise\VcpkgPractise\SrpcHelloWorld\redlock\redlock.cpp(139): message : 查看对正在编译的函数 模板 实例化“sw::redis::QueuedRedis<sw::redis::TransactionImpl> &sw::redis::QueuedRedis<sw::redis::TransactionImpl>::del(const sw::redis::StringView &)”的引用
+  SrpcHelloWorldServer.cpp
+E:\Git_Projects\vcpkg\installed\x64-windows-static\include\srpc\rpc_module.h(78,1): warning C4334: “<<”: 32 位移位的结果被隐式转换为 64 位(是否希望进行 64 位移位?)
+E:\Git_Projects\vcpkg\installed\x64-windows-static\include\srpc\rpc_module.h(79,1): warning C4334: “<<”: 32 位移位的结果被隐式转换为 64 位(是否希望进行 64 位移位?)
+E:\Git_Projects\vcpkg\installed\x64-windows-static\include\srpc\rpc_module.h(80,1): warning C4334: “<<”: 32 位移位的结果被隐式转换为 64 位(是否希望进行 64 位移位?)
+E:\Git_Projects\vcpkg\installed\x64-windows-static\include\hiredis\sds.h(53,15): warning C4200: 使用了非标准扩展: 结构/联合中的零大小数组
+E:\Git_Projects\vcpkg\installed\x64-windows-static\include\hiredis\sds.h(53,15): message : 默认构造函数或 copy/move 赋值运算符将忽略此成员
+E:\Git_Projects\vcpkg\installed\x64-windows-static\include\hiredis\sds.h(59,15): warning C4200: 使用了非标准扩展: 结构/联合中的零大小数组
+E:\Git_Projects\vcpkg\installed\x64-windows-static\include\hiredis\sds.h(59,15): message : 默认构造函数或 copy/move 赋值运算符将忽略此成员
+E:\Git_Projects\vcpkg\installed\x64-windows-static\include\hiredis\sds.h(65,15): warning C4200: 使用了非标准扩展: 结构/联合中的零大小数组
+E:\Git_Projects\vcpkg\installed\x64-windows-static\include\hiredis\sds.h(65,15): message : 默认构造函数或 copy/move 赋值运算符将忽略此成员
+E:\Git_Projects\vcpkg\installed\x64-windows-static\include\hiredis\sds.h(71,15): warning C4200: 使用了非标准扩展: 结构/联合中的零大小数组
+E:\Git_Projects\vcpkg\installed\x64-windows-static\include\hiredis\sds.h(71,15): message : 默认构造函数或 copy/move 赋值运算符将忽略此成员
+E:\Git_Projects\vcpkg\installed\x64-windows-static\include\hiredis\sds.h(77,15): warning C4200: 使用了非标准扩展: 结构/联合中的零大小数组
+E:\Git_Projects\vcpkg\installed\x64-windows-static\include\hiredis\sds.h(77,15): message : 默认构造函数或 copy/move 赋值运算符将忽略此成员
+E:\VS_Projects\c++\VcpkgPractise\VcpkgPractise\SrpcHelloWorld\redlock\redlock.h(245,1): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+E:\VS_Projects\c++\VcpkgPractise\VcpkgPractise\SrpcHelloWorld\redlock\redlock.h(146,16): warning C4101: “err”: 未引用的局部变量
+E:\VS_Projects\c++\VcpkgPractise\VcpkgPractise\SrpcHelloWorld\redlock\redlock.h(142): message : 在编译 类 模板 成员函数“void sw::redis::RedLock<sw::redis::RedLockMutex>::unlock(void)”时
+E:\VS_Projects\c++\VcpkgPractise\VcpkgPractise\SrpcHelloWorld\SrpcHelloWorldServer.cpp(87): message : 查看对正在编译的函数 模板 实例化“void sw::redis::RedLock<sw::redis::RedLockMutex>::unlock(void)”的引用
+E:\VS_Projects\c++\VcpkgPractise\VcpkgPractise\SrpcHelloWorld\SrpcHelloWorldServer.cpp(56): message : 查看对正在编译的 类 模板 实例化“sw::redis::RedLock<sw::redis::RedLockMutex>”的引用
+  正在生成代码...
+  SrpcHelloWorld.vcxproj -> E:\VS_Projects\c++\VcpkgPractise\VcpkgPractise\x64\Debug\SrpcHelloWorldServer.exe
